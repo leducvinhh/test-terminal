@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h3 @click="handleClick">{{ number }}</h3>
+    <h3 @click="handleClick">number1: {{ number }}</h3>
     <button @click="number += 1">Change title</button>
   </div>
 </template>
