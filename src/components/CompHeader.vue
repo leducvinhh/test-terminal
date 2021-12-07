@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h3 @click="handleClick">number1: {{ number }}</h3>
-    <button @click="number += 1">Change title</button>
+    <button @click="number += 4">Change title</button>
   </div>
 </template>
 
